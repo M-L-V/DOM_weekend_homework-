@@ -1,5 +1,8 @@
+
+
 body {
   font-family: arial;
+
 }
 
 .food-list-item > h1 {
@@ -10,4 +13,20 @@ body {
 .food-list-item > h2 {
   font-family: : arial;
   font-size: 15px;
+}
+
+button {
+  border:50px
+  border-color: black;
+  padding: 6px 10px;
+  color: black;
+  cursor:pointer;
+  font-family: arial;
+  background-color: #fff44f;
+}
+
+input[type="submit"] {
+  font-family: arial;
+  background-color: #fff44f;
+  border-color: black;
 }
