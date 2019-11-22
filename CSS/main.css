@@ -1,0 +1,13 @@
+body {
+  font-family: arial;
+}
+
+.food-list-item > h1 {
+  font-family: arial;
+  font-size: 20px;
+}
+
+.food-list-item > h2 {
+  font-family: : arial;
+  font-size: 15px;
+}

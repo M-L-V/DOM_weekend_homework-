@@ -16,20 +16,22 @@
           <input type="text" id="name" required/>
         </article>
 
-        <div class="form-item">
-          <label for="origin" class="primary">Country of Origin</label>
-          <input type="text" id="origin" required/>
-        </div>
+        <article class="form-item">
+          <label for="country" class="primary">Country of Origin</label>
+          <input type="text" id="country" required/>
+        </article>
 
-        <div class="form-item">
-          <label for="category" class="primary">Type of Food</label>
-          <select id="category">
+        <article class="form-item">
+          <label for="type" class="primary">Type of Food</label>
+          <select id="type">
             <option value="" disabled selected></option>
             <option value="Breakfast">Breakfast</option>
             <option value="Lunch">Lunch or Dinner</option>
             <option value="Snack">Snack</option>
+            <option value="Dessert">Dessert</option>
           </select>
-        </div>
+        </article>
+
       </article>
       <input type="submit" value="save"/>
     </form>
